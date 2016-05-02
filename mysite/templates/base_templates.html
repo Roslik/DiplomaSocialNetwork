@@ -1,0 +1,99 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>News</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Le styles -->
+    <link href="/static/assets/css/bootstrap.css" rel="stylesheet">
+    <style>
+      body {
+     
+      }
+    </style>
+    <link href="/static/assets/css/bootstrap-responsive.css" rel="stylesheet">
+	<link href="/static/assets/css/mystyle.css" rel="stylesheet">
+
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="/static/assets/js/html5shiv.js"></script>
+    <![endif]-->
+
+    <!-- Fav and touch icons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/static/assets/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/static/assets/ico/apple-touch-icon-114-precomposed.png">
+      <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/static/assets/ico/apple-touch-icon-72-precomposed.png">
+                    <link rel="apple-touch-icon-precomposed" href="/static/assets/ico/apple-touch-icon-57-precomposed.png">
+                                   <link rel="shortcut icon" href="/static/assets/ico/favicon.png">
+  </head>
+
+  <body>
+
+    <div class="navbar navbar-static-top">
+	<div class="row-fluid main-line"><div class="main-text span11"><a href="#">Fixed Gear</a></div><div class="log-in span1"><a href="#">Войти</a></div></div>
+	<div class="main-line lighter">
+		<div class="circle"><a href="#"><img src="/static/assets/img/img.jpg"></a></div>
+		<div class="circle"><a href="#"><img src="/static/assets/img/img.jpg"></a></div>
+	</div>
+
+      		<div class="navbar-red">
+			<!-- <div class="container-red"> -->
+	
+          <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <div class="nav-collapse collapse">
+            <ul class="nav" >
+		<li><a href="#">Купить/продать</a></li>
+              <li><a href="#">Магазины</a></li>
+              <li><a href="#about">Мастерские</a></li>
+              <li><a href="#contact">Соревнования</a></li>
+              <li><a href="#contact">Аккаунт</a></li>
+            </ul>
+          </div><!--/.nav-collapse -->
+
+       <!--  </div> -->
+      
+</div>
+</div>
+
+
+
+
+    <div class="hero-unit">
+
+      {% block content %}
+      {% endblock %}
+
+    </div> <!-- /container -->
+
+
+
+
+
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="/static/assets/js/jquery.js"></script>
+    <script src="/static/assets/js/bootstrap-transition.js"></script>
+    <script src="/static/assets/js/bootstrap-alert.js"></script>
+    <script src="/static/assets/js/bootstrap-modal.js"></script>
+    <script src="/static/assets/js/bootstrap-dropdown.js"></script>
+    <script src="/static/assets/js/bootstrap-scrollspy.js"></script>
+    <script src="/static/assets/js/bootstrap-tab.js"></script>
+    <script src="/static/assets/js/bootstrap-tooltip.js"></script>
+    <script src="/static/assets/js/bootstrap-popover.js"></script>
+    <script src="/static/assets/js/bootstrap-button.js"></script>
+    <script src="/static/assets/js/bootstrap-collapse.js"></script>
+    <script src="/static/assets/js/bootstrap-carousel.js"></script>
+    <script src="/static/assets/js/bootstrap-typeahead.js"></script>
+
+  </body>
+</html>
